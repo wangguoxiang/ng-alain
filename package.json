@@ -21,7 +21,7 @@
     "scaffold"
   ],
   "scripts": {
-    "ng-high-memory": "node --max_old_space_size=4000 ./node_modules/@angular/cli/bin/ng",
+    "ng-high-memory": "node --max_old_space_size=1000 ./node_modules/@angular/cli/bin/ng",
     "ng": "ng",
     "start": "ng s -o",
     "hmr": "ng s -o --hmr",
